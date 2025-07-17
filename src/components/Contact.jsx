@@ -96,6 +96,11 @@ const Contact = () => {
                 </div>
                 
                 <div>
+                  <h4 className="font-semibold text-gray-900">President Director</h4>
+                  <p className="text-gray-600">{company.president_director || 'Yati Marlina'}</p>
+                </div>
+
+                <div>
                   <h4 className="font-semibold text-gray-900">Director</h4>
                   <p className="text-gray-600">{company.director || 'WARNERI PUTERA SH.M.Kn.'}</p>
                 </div>

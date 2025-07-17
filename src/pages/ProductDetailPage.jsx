@@ -88,7 +88,7 @@ const ProductDetailPage = () => {
     <div>
       <Header />
       <div className="pt-8">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 mb-10">
           {/* Breadcrumb */}
           <div className="mb-8">
             <button
@@ -101,7 +101,7 @@ const ProductDetailPage = () => {
           </div>
 
           {/* Product Details */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="bg-white rounded-lg overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Product Image */}
               <div className="p-8">

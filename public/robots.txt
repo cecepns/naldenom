@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://naldenom.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /admin/dashboard
+Disallow: /admin/products
+Disallow: /admin/articles
+Disallow: /admin/faqs
+Disallow: /admin/profile
+
+# Allow important pages
+Allow: /
+Allow: /products
+Allow: /products/
+Allow: /articles
+Allow: /articles/
+Allow: /faq
+Allow: /contact
+Allow: /about
+
+# Block sensitive files
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /api/
+Disallow: /uploads/ 
